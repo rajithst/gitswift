@@ -9,7 +9,7 @@ import Foundation
 
 struct Terminal {
     
-    private let base_path:String = "bin/zsh"
+    private let base_path:String = "/bin/zsh"
     
     
     @available(macOS 10.13, *)
