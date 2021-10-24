@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "gitswift",
+        "repositoryURL": "https://github.com/rajithst/gitswift.git",
+        "state": {
+          "branch": "main",
+          "revision": "24230314c09d29cffd11061e48f11e65be05a292",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

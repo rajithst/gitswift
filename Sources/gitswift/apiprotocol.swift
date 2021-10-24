@@ -8,7 +8,7 @@
 import Foundation
 
 protocol API {
-    func clone(uri:String) -> Void
+    func clone(uri:String,local_dir:String) -> Void
     func pull() -> Void
     func push() -> Void
     func commit(message:String) -> Void

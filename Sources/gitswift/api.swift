@@ -17,7 +17,7 @@ public class TroveClient {
     }
     
     public func clone(URI:String) {
-        self.api.clone(uri: URI)
+        self.api.clone(uri: URI,local_dir:"")
     }
     
 

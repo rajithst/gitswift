@@ -17,8 +17,8 @@ class GitSwift:API {
     }
     
    
-    func clone(uri: String) {
-        let command = "\(URI.CLONE.rawValue) \(uri)"
+    func clone(uri: String,local_dir:String = "") {
+        let command = "\(URI.CLONE.rawValue) \(uri) \(local_dir)"
         cli_wrapper.execute(command: command)
     }
     
