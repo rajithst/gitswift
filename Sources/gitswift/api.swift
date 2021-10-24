@@ -16,8 +16,8 @@ public class TroveClient {
         self.api = GitSwift()
     }
     
-    public func clone(URI:String) {
-        self.api.clone(uri: URI,local_dir:"")
+    public func clone(URI:String,local_dir:String = "") {
+        self.api.clone(uri: URI,local_dir:local_dir)
     }
     
 

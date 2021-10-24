@@ -10,4 +10,4 @@ import gitswift
 
 
 let client = TroveClient()
-client.clone(URI: )
+client.clone(URI: <#T##String#>)
